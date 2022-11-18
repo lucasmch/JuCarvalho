@@ -1819,6 +1819,13 @@ ol.comment-list li .children li {
     border-radius: 30px;
 }
 
+.p-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 
 /* ======= Footer style ======= */
 #website-footer {
