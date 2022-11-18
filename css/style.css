@@ -1,31 +1,5 @@
-/* ----------------------------------------------------------------
-
-01. Fonts settings
-02. Default style
-03. Scrollbar style
-04. Selection style
-05. Sidebar & Menu style
-06. Content style
-07. Section style
-08. Slider style
-09. Heading style
-10. Navigation style
-11. Team style
-12. Services style
-13. Pricing style
-14. Gallery style
-15. Blog & Post style
-16. Contact style
-17. Footer style
-18. Progress-wrap style
-
-------------------------------------------------------------------- */
-
-
-/* ======= Fonts settings (Google Fonts: Josefin Sans) ======= */
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700&amp;display=swap');
 
-/* ======= Default styles ======= */
 html,
 body {
     -moz-osx-font-smoothing: grayscale;
@@ -92,6 +66,9 @@ img {
 }
 .mt-20 {
     margin-top: 20px;
+}
+.ml-20 {
+    margin-left: 20px;
 }
 .mt-40 {
     margin-top: 20px;
@@ -1896,6 +1873,18 @@ ul.social-network li {
         text-align: center;
         float: none;
         margin-bottom: 0;
+    }
+
+    .form-group {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ml-20{
+        margin-left: 0px;
+        margin-top: 20px !important;
     }
 }
 @media (min-width: 768px) {
